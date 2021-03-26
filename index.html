@@ -8,6 +8,11 @@
 </head>
 <body>
     <section class="center">
+        <form class="search-bar" action="https://www.google.com/search" method="get">
+            <div>
+                <input class="search-text" name="q" type="text" placeholder="Google 검색 또는 URL 입력" />
+            </div>
+        </form>
     <div class="js-clock clock">
         <span class="clockspan">00:00</span>
     </div>
@@ -16,10 +21,9 @@
         <input class="nameInput" type="text" placeholder="What is your name?" />
     </form>
     <h4 class="js-greetings greetings"></h4>
-
     
     <form class="js-toDoForm">
-        <input class="js-todoInput todoInput" type="text" placeholder="Write a to do" />
+        <input class="js-todoInput todoInput" type="text" placeholder="Add your new todo!" />
     </form>
     <ul class="js-toDoList"></ul>
 </div>
@@ -31,6 +35,9 @@
     <script src="todo.js"></script>
     <script src="bg.js"></script>
     <script src="weather.js"></script>
+    <script
+    src="https://kit.fontawesome.com/6478f529f2.js"
+crossorigin="anonymous"></script>
     
 </body>
 </html>
